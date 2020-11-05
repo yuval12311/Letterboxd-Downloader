@@ -23,4 +23,3 @@ if __name__ == "__main__":
             magnet = magnet_from_LB_URL(movie[3])
             res.write(magnet + "\n")
             print(magnet)
-
