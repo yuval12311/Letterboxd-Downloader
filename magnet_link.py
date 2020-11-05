@@ -17,4 +17,3 @@ def magnet_from_imdb_id(imdb_id: string) -> string:
     return hq_magnet_link(requests.get("http://popcorn-ru.tk/movie/"+imdb_id).json())
 
 
-print(magnet_from_LB_URL("https://boxd.it/2aWi"))
