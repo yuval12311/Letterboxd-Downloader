@@ -17,5 +17,4 @@ def imdb_id_from_URL(URL: string):
     return URL.split('/')[4]
 
 
-print(imdb_id_from_URL("http://www.imdb.com/title/tt0181689/maindetails"))
 
