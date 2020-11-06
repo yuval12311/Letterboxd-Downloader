@@ -1,0 +1,1 @@
+pyinstaller "__main__.py" -n "Letterboxd Downloader" -i "favicon.ico" --onefile
