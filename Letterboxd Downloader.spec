@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['__main__.py'],
-             pathex=['C:\\Users\\yuval\\PycharmProjects\\untitled'],
+             pathex=['C:\\Users\\yuval\\PycharmProjects\\Letterboxd-Downloader'],
              binaries=[],
              datas=[],
              hiddenimports=[],
