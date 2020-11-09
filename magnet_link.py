@@ -1,6 +1,6 @@
 import string
 import requests
-from LB_scrapper import imdb_id
+from LB_scrapper import imdb_id, NotFoundError
 
 
 def magnet_from_LB_URL(LB_URL: string) -> string:
@@ -19,5 +19,3 @@ def magnet_from_imdb_id(imdb_id: string) -> string:
     return hq_magnet_link(response.json())
 
 
-class NotFoundError(Exception):
-    pass

@@ -1,5 +1,4 @@
 import string
-from magnet_link import NotFoundError
 import requests
 from bs4 import BeautifulSoup
 
@@ -17,4 +16,5 @@ def imdb_id_from_URL(URL: string):
     return URL.split('/')[4]
 
 
-
+class NotFoundError(Exception):
+    pass

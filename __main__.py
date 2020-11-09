@@ -3,7 +3,8 @@ from time import sleep
 from tkinter import Tk
 from tkinter import filedialog
 import csv
-from magnet_link import magnet_from_LB_URL, NotFoundError
+from magnet_link import magnet_from_LB_URL
+from LB_scrapper import NotFoundError
 from qbittorrent import Client
 from termcolor import colored
 
